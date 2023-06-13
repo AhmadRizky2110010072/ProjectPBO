@@ -11,55 +11,55 @@ import java.util.ArrayList;
  */
 public class datasetReservasi {
     
-    private ArrayList<Integer> ID_Reserv;
-    private ArrayList<String> Reserv_code;
-    private ArrayList<String> Reserv_at;
-    private ArrayList<String> Reserv_date; 
+    private ArrayList<Integer> idReserv;
+    private ArrayList<String> Reservcode;
+    private ArrayList<String> Reservat;
+    private ArrayList<String> Reservdate; 
     private ArrayList<String> Kursi;
     private ArrayList<String> Berangkat;
     private ArrayList<String> Harga;
-    private ArrayList<Integer> ID_User;
-    private ArrayList<Integer> ID_Customer; 
-    private ArrayList<Integer> ID_Rute;
+    private ArrayList<Integer> idUser;
+    private ArrayList<Integer> idCustomer; 
+    private ArrayList<Integer> idRute;
     private ArrayList<String> Status;
 
     public datasetReservasi() {
-        ID_Reserv = new ArrayList<Integer>();
-        Reserv_code = new ArrayList<String>();
-        Reserv_at = new ArrayList<String>();
-        Reserv_date = new ArrayList<String>();
+        idReserv = new ArrayList<Integer>();
+        Reservcode = new ArrayList<String>();
+        Reservat = new ArrayList<String>();
+        Reservdate = new ArrayList<String>();
         Kursi = new ArrayList<String>();
         Berangkat = new ArrayList<String>();
         Harga = new ArrayList<String>();
-        ID_User = new ArrayList<Integer>();
-        ID_Customer = new ArrayList<Integer>();
-        ID_Rute = new ArrayList<Integer>();
+        idUser = new ArrayList<Integer>();
+        idCustomer = new ArrayList<Integer>();
+        idRute = new ArrayList<Integer>();
         Status = new ArrayList<String>();
     }
     
-    public void insertID_Reserv(int isi){
-        this.ID_Reserv.add(isi);
+    public void insertidReserv(int isi){
+        this.idReserv.add(isi);
     }
-    public ArrayList<Integer> getRecordID_Reserv(){
-        return this.ID_Reserv;
+    public ArrayList<Integer> getRecordidReserv(){
+        return this.idReserv;
     }
-    public void insertReserv_code(String isi){
-        this.Reserv_code.add(isi);
+    public void insertReservcode(String isi){
+        this.Reservcode.add(isi);
     }
-    public ArrayList<String> getRecordReserv_code(){
-        return this.Reserv_code;
+    public ArrayList<String> getRecordReservcode(){
+        return this.Reservcode;
     }
-    public void insertReserv_at(String isi){
-        this.Reserv_at.add(isi);
+    public void insertReservat(String isi){
+        this.Reservat.add(isi);
     }
-    public ArrayList<String> getRecordReserv_at(){
-        return this.Reserv_at;
+    public ArrayList<String> getRecordReservat(){
+        return this.Reservat;
     }
-    public void insertReserv_date(String isi){
-        this.Reserv_date.add(isi);
+    public void insertReservdate(String isi){
+        this.Reservdate.add(isi);
     }
-    public ArrayList<String> getRecordReserv_date(){
-        return this.Reserv_date;
+    public ArrayList<String> getRecordReservdate(){
+        return this.Reservdate;
     }
     public void insertKursi(String isi){
         this.Kursi.add(isi);
@@ -79,23 +79,23 @@ public class datasetReservasi {
     public ArrayList<String> getRecordHarga(){
         return this.Harga;
     }
-    public void insertID_User(int isi){
-        this.ID_User.add(isi);
+    public void insertidUser(int isi){
+        this.idUser.add(isi);
     }
-    public ArrayList<Integer> getRecordID_User(){
-        return this.ID_User;
+    public ArrayList<Integer> getRecordidUser(){
+        return this.idUser;
     }
-    public void insertID_Customer(int isi){
-        this.ID_Customer.add(isi);
+    public void insertidCustomer(int isi){
+        this.idCustomer.add(isi);
     }
-    public ArrayList<Integer> getRecordID_Customer(){
-        return this.ID_Customer;
+    public ArrayList<Integer> getRecordidCustomer(){
+        return this.idCustomer;
     }
-    public void insertID_Rute(int isi){
-        this.ID_Rute.add(isi);
+    public void insertidRute(int isi){
+        this.idRute.add(isi);
     }
-    public ArrayList<Integer> getRecordID_Rute(){
-        return this.ID_Rute;
+    public ArrayList<Integer> getRecordidRute(){
+        return this.idRute;
     }
     public void insertStatus(String isi){
         this.Status.add(isi);
@@ -104,18 +104,18 @@ public class datasetReservasi {
         return this.Status;
     }
     
-    public void insertReservasi(int ID_Reserv, String Reserv_code, String Reserv_at, String Reserv_date, 
-            String Kursi, String Berangkat, String Harga, int ID_User, int ID_Customer, int ID_Rute, String Status ){
-        this.ID_Reserv.add(ID_Reserv);
-        this.Reserv_code.add(Reserv_code);
-        this.Reserv_at.add(Reserv_at);
-        this.Reserv_date.add(Reserv_date);
+    public void insertReservasi(int idReserv, String Reservcode, String Reservat, String Reservdate, 
+            String Kursi, String Berangkat, String Harga, int idUser, int idCustomer, int idRute, String Status ){
+        this.idReserv.add(idReserv);
+        this.Reservcode.add(Reservcode);
+        this.Reservat.add(Reservat);
+        this.Reservdate.add(Reservdate);
         this.Kursi.add(Kursi);
         this.Berangkat.add(Berangkat);
         this.Harga.add(Harga);
-        this.ID_User.add(ID_User);
-        this.ID_Customer.add(ID_Customer);
-        this.ID_Rute.add(ID_Rute);
+        this.idUser.add(idUser);
+        this.idCustomer.add(idCustomer);
+        this.idRute.add(idRute);
         this.Status.add(Status);
         }
-    }
+}

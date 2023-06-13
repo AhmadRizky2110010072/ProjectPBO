@@ -9,75 +9,81 @@ package booking;
  * @author user
  */
 public class tblReservasi {
-    private int ID_Reserv;
-    private String Reserv_code;
-    private String Reserv_at;
-    private String Reserv_date; 
+    private int idReserv;
+    private String Reservcode;
+    private String Reservat;
+    private String Reservdate; 
     private String Kursi;
     private String Berangkat;
     private String Harga;
-    private String ID_User;
-    private String ID_Customer; 
-    private String ID_Rute;
+    private int idUser;
+    private int idCustomer; 
+    private int idRute;
     private String Status;
     
     public tblReservasi() {}
     
-    public void setID_Reserv (String NOP){
-        this.ID_Reserv=ID_Reserv;
+    public void setidReserv (int idReserv){
+        this.idReserv=idReserv;
     }
-    public int getID_Reserv(){
-        return this.ID_Reserv;
+    public int getidReserv(){
+        return this.idReserv;
     }
-    public void setReserv_code (String NOP){
-        this.Reserv_code=Reserv_code;
+    public void setReservcode (String Reservcode){
+        this.Reservcode=Reservcode;
     }
-    public String getReserv_at(){
-        return this.Reserv_at;
+     public String getReservcode(){
+        return this.Reservcode;
+    }
+    public void setReservat (String Reservat){
+        this.Reservat=Reservat;
+    }
+    public String getReservat(){
+        return this.Reservat;
     }   
-    public void setReserv_date(String NOP){
-        this.Reserv_date=Reserv_date;
+    public void setReservdate(String Reservdate){
+        this.Reservdate=Reservdate;
     }
-    public String getReserv_date(){
-        return this.Reserv_date;
+    public String getReservdate(){
+        return this.Reservdate;
     }
-    public void setKursi (String NOP){
+    public void setKursi (String Kursi){
         this.Kursi=Kursi;
     }
     public String getKursi(){
         return this.Kursi;
     }
-    public void setBerangkat (String NOP){
+    public void setBerangkat (String Berangkat){
         this.Berangkat=Berangkat;
     }
     public String getBerangkat(){
         return this.Berangkat;
     }
-    public void setHarga (String NOP){
+    public void setHarga (String Harga){
         this.Harga=Harga;
     }
     public String getHarga(){
         return this.Harga;
     }
-    public void setID_User(String NOP){
-        this.ID_User=ID_User;
+    public void setidUser(int idUser){
+        this.idUser=idUser;
     }
-    public String getID_User(){
-        return this.ID_User;
+    public int getidUser(){
+        return this.idUser;
     }
-    public void setID_Customer (String NOP){
-        this.ID_Customer=ID_Customer;
+    public void setidCustomer (int idCustomer){
+        this.idCustomer=idCustomer;
     }
-    public String getID_Customer(){
-        return this.ID_Customer;
+    public int getidCustomer(){
+        return this.idCustomer;
     }
-    public void setID_Rute (String NOP){
-        this.ID_Rute=ID_Rute;
+    public void setidRute (int idRute){
+        this.idRute=idRute;
     }
-    public String getID_Rute(){
-        return this.ID_Rute;
+    public int getidRute(){
+        return this.idRute;
     }
-    public void setStatus (String NOP){
+    public void setStatus (String Status){
         this.Status=Status;
     }
     public String getStatus(){

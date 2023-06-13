@@ -9,46 +9,46 @@ package booking;
  * @author user
  */
 public class tblCustomer {
-    private int ID_Customer;
-    private String Name;
+    private int idCustomer;
+    private String Nama;
     private String Alamat;
-    private String Hp; 
+    private String Nmrhp; 
     private String Jeniskelamin;
     private String Username;
     
     public tblCustomer() {}
     
-    public void setID_Customer (String NOP){
-        this.ID_Customer=ID_Customer;
+    public void setidCustomer (int idCustomer){
+        this.idCustomer=idCustomer;
     }
-    public int getID_Customer(){
-        return this.ID_Customer;
+    public int getidCustomer(){
+        return this.idCustomer;
     }
-    public void setName (String NOP){
-        this.Name=Name;
+    public void setNama (String Nama){
+        this.Nama=Nama;
     }
-    public String getName(){
-        return this.Name;
+    public String getNama(){
+        return this.Nama;
     }   
-    public void setAlamat (String NOP){
+    public void setAlamat (String Alamat){
         this.Alamat=Alamat;
     }
     public String getAlamat(){
         return this.Alamat;
     }
-    public void setHp (String NOP){
-        this.Hp=Hp;
+    public void setNmrhp (String Nmrhp){
+        this.Nmrhp=Nmrhp;
     }
-    public String getHp(){
-        return this.Hp;
+    public String getNmrhp(){
+        return this.Nmrhp;
     }
-    public void setJeniskelamin (String NOP){
+    public void setJeniskelamin (String Jeniskelamin){
         this.Jeniskelamin=Jeniskelamin;
     }
     public String getJeniskelamin(){
         return this.Jeniskelamin;
     }
-    public void setUsername (String NOP){
+    public void setUsername (String Username){
         this.Username=Username;
     }
     public String getUsername(){

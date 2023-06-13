@@ -9,49 +9,49 @@ package booking;
  * @author user
  */
 public class tblRute {
-    private int ID_Rute;
+    private int idRute;
     private String Berangkat;
-    private String Rute_from;
-    private String Rute_to; 
+    private String Dari;
+    private String Tujuan; 
     private String Harga;
-    private String ID_Trans;
+    private int idTrans;
     
     public tblRute() {}
     
-    public void setID_Rute (String NOP){
-        this.ID_Rute=ID_Rute;
+    public void setidRute (int idRute){
+        this.idRute=idRute;
     }
-    public int getID_Rute(){
-        return this.ID_Rute;
+    public int getidute(){
+        return this.idRute;
     }
-    public void setBerangkat (String NOP){
+    public void setBerangkat (String Berangkat){
         this.Berangkat=Berangkat;
     }
     public String getBerangkat(){
         return this.Berangkat;
     }
-    public void setRute_from (String NOP){
-        this.Rute_from=Rute_from;
+    public void setDari (String Dari){
+        this.Dari=Dari;
     }
-    public String getRute_from(){
-        return this.Rute_from;
+    public String getDari(){
+        return this.Dari;
     }
-    public void setRute_to (String NOP){
-        this.Rute_to=Rute_to;
+    public void setTujuan (String Tujuan){
+        this.Tujuan=Tujuan;
     }
-    public String getRute_to(){
-        return this.Rute_to;
+    public String getTujuan(){
+        return this.Tujuan;
     }
-    public void setHarga (String NOP){
+    public void setHarga (String Harga){
         this.Harga=Harga;
     }
     public String getHarga(){
         return this.Harga;
     }
-    public void setID_Trans(String NOP){
-        this.ID_Trans=ID_Trans;
+    public void setidTrans(int idTrans){
+        this.idTrans=idTrans;
     }
-    public String getID_Trans(){
-        return this.ID_Trans;
+    public int getidTrans(){
+        return this.idTrans;
     }
 }

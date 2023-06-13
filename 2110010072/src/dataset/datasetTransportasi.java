@@ -11,26 +11,26 @@ import java.util.ArrayList;
  */
 public class datasetTransportasi {
     
-    private ArrayList<Integer> ID_Trans;
+    private ArrayList<Integer> idTrans;
     private ArrayList<String> Code;
     private ArrayList<String> Deskripsi; 
     private ArrayList<String> Kursi;
     private ArrayList<String> Berangkat;
-    private ArrayList<String> ID_Trans_type;
+    private ArrayList<String> idTranstype;
 
     public datasetTransportasi() {
-        ID_Trans = new ArrayList<Integer>();
+        idTrans = new ArrayList<Integer>();
         Code = new ArrayList<String>();
         Deskripsi = new ArrayList<String>();
         Kursi = new ArrayList<String>();
         Berangkat = new ArrayList<String>();
-        ID_Trans_type = new ArrayList<String>();
+        idTranstype = new ArrayList<String>();
     }
-    public void insertID_Trans(int isi){
-        this.ID_Trans.add(isi);
+    public void insertidTrans(int isi){
+        this.idTrans.add(isi);
     }
-    public ArrayList<Integer> getRecordID_Trans(){
-        return this.ID_Trans;
+    public ArrayList<Integer> getRecordidTrans(){
+        return this.idTrans;
     }
     public void insertCode(String isi){
         this.Code.add(isi);
@@ -56,20 +56,20 @@ public class datasetTransportasi {
     public ArrayList<String> getRecordBerangkat(){
         return this.Berangkat;
     }
-    public void insertId_Trans_type(String isi){
-        this.ID_Trans_type.add(isi);
+    public void insertidTranstype(String isi){
+        this.idTranstype.add(isi);
     }
-    public ArrayList<String> getRecordID_Trans_type(){
-        return this.ID_Trans_type;
+    public ArrayList<String> getRecordidTranstype(){
+        return this.idTranstype;
     }
     
-    public void insertTransportasi(int ID_Trans, String Code, String Deskripsi, String Kursi, 
-            String Berangkat, String ID_Trans_type ){
-        this.ID_Trans.add(ID_Trans);
+    public void insertTransportasi(int idTrans, String Code, String Deskripsi, String Kursi, 
+            String Berangkat, String idTranstype ){
+        this.idTrans.add(idTrans);
         this.Code.add(Code);
         this.Deskripsi.add(Deskripsi);
         this.Kursi.add(Kursi);
         this.Berangkat.add(Berangkat);
-        this.ID_Trans_type.add(ID_Trans_type);
+        this.idTranstype.add(idTranstype);
         }
     }

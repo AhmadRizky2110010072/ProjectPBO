@@ -11,27 +11,27 @@ import java.util.ArrayList;
  */
 public class datasetCustomer {
    
-    private ArrayList<Integer> ID_Customer;
+    private ArrayList<Integer> idCustomer;
     private ArrayList<String> Nama;
     private ArrayList<String> Alamat;
-    private ArrayList<String> HP;
-    private ArrayList<String> JenisKelamin;
+    private ArrayList<String> Nmrhp;
+    private ArrayList<String> Jeniskelamin;
     private ArrayList<String> Username;
 
     public datasetCustomer() {
-        ID_Customer = new ArrayList<Integer>();
+        idCustomer = new ArrayList<Integer>();
         Nama = new ArrayList<String>();
         Alamat = new ArrayList<String>();
-        HP = new ArrayList<String>();
-        JenisKelamin = new ArrayList<String>();
+        Nmrhp = new ArrayList<String>();
+        Jeniskelamin = new ArrayList<String>();
         Username = new ArrayList<String>();
     }
      
-    public void insertID_Customer(int isi){
-        this.ID_Customer.add(isi);
+    public void insertidCustomer(int isi){
+        this.idCustomer.add(isi);
     }
-    public ArrayList<Integer> getRecordID_Customer(){
-        return this.ID_Customer;
+    public ArrayList<Integer> getRecordidCustomer(){
+        return this.idCustomer;
     }
     
     public void insertNama(String isi){
@@ -48,18 +48,18 @@ public class datasetCustomer {
         return this.Alamat;
     }
     
-    public void insertHp(String isi){
-        this.HP.add(isi);
+    public void insertNmrhp(String isi){
+        this.Nmrhp.add(isi);
     }
-    public ArrayList<String> getRecordHp(){
-        return this.HP;
+    public ArrayList<String> getRecordNmrhp(){
+        return this.Nmrhp;
     }
     
-    public void insertJenisKelamin(String isi){
-        this.JenisKelamin.add(isi);
+    public void insertJeniskelamin(String isi){
+        this.Jeniskelamin.add(isi);
     }
-    public ArrayList<String> getRecordJenisKelamin(){
-        return this.JenisKelamin;
+    public ArrayList<String> getRecordJeniskelamin(){
+        return this.Jeniskelamin;
     }
     
     public void insertUsername(String isi){
@@ -69,13 +69,13 @@ public class datasetCustomer {
         return this.Username;
     }
     
-    public void insertCustomer(int ID_Customer, String Nama, String Alamat, String HP, 
+    public void insertCustomer(int idCustomer, String Nama, String Alamat, String Nmrhp, 
             String Jeniskelamin, String Username ){
-        this.ID_Customer.add(ID_Customer);
+        this.idCustomer.add(idCustomer);
         this.Nama.add(Nama);
         this.Alamat.add(Alamat);
-        this.HP.add(HP);
-        this.JenisKelamin.add(Jeniskelamin);
+        this.Nmrhp.add(Nmrhp);
+        this.Jeniskelamin.add(Jeniskelamin);
         this.Username.add(Username);
     }
 }

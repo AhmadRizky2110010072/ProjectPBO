@@ -11,22 +11,22 @@ import java.util.ArrayList;
  */
 public class datasetUser {
     
-    private ArrayList<Integer> ID_User;
+    private ArrayList<Integer> idUser;
     private ArrayList<String> Username;
     private ArrayList<String> Password;
     private ArrayList<String> Fullname;
 
     public datasetUser() {
-        ID_User = new ArrayList<Integer>();
+        idUser = new ArrayList<Integer>();
         Username = new ArrayList<String>();
         Password = new ArrayList<String>();
         Fullname = new ArrayList<String>();
     }
-    public void insertID_User(int isi){
-        this.ID_User.add(isi);
+    public void insertidUser(int isi){
+        this.idUser.add(isi);
     }
-    public ArrayList<Integer> getRecordID_User(){
-        return this.ID_User;
+    public ArrayList<Integer> getRecordidUser(){
+        return this.idUser;
     }
     public void insertUsername(String isi){
         this.Username.add(isi);
@@ -46,9 +46,8 @@ public class datasetUser {
     public ArrayList<String> getRecordFullname(){
         return this.Fullname;
     }
-    
-     public void insertUser(int ID_User, String Username, String Password, String Fullname ){
-        this.ID_User.add(ID_User);
+     public void insertUser(int idUser, String Username, String Password, String Fullname ){
+        this.idUser.add(idUser);
         this.Username.add(Username);
         this.Password.add(Password);
         this.Fullname.add(Fullname);

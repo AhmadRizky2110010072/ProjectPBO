@@ -9,43 +9,43 @@ package booking;
  * @author user
  */
 public class tblTransportasi {
-    private int ID_Trans;
+    private int idTrans;
     private String Code;
     private String Deskripsi;
     private String Kursi; 
-    private String ID_Trans_type;
+    private String idTranstype;
     
     public tblTransportasi() {}
     
-    public void setID_Trans(String NOP){
-        this.ID_Trans=ID_Trans;
+    public void setidTrans(int idTrans){
+        this.idTrans=idTrans;
     }
-    public int getID_Trans(){
-        return this.ID_Trans;
+    public int getidrans(){
+        return this.idTrans;
     }
-    public void setCode (String NOP){
+    public void setCode (String Code){
         this.Code=Code;
     }
     public String getCode(){
         return this.Code;
     }
-    public void setDeskripsi (String NOP){
+    public void setDeskripsi (String Deskripsi){
         this.Deskripsi=Deskripsi;
     }
     public String getDeskripsi(){
         return this.Deskripsi;
     }
-    public void setKursi (String NOP){
+    public void setKursi (String Kursi){
         this.Kursi=Kursi;
     }
     public String getKursi(){
         return this.Kursi;
     }
-    public void setID_Trans_type (String NOP){
-        this.ID_Trans_type=ID_Trans_type;
+    public void setidTranstype (String idTranstype){
+        this.idTranstype=idTranstype;
     }
-    public String getID_Trans_type (){
-        return this.ID_Trans_type ;
+    public String getidTranstype (){
+        return this.idTranstype ;
     }
 }
 

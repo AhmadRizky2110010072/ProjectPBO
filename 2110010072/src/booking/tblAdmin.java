@@ -14,16 +14,20 @@ public class tblAdmin {
     
     public tblAdmin() {}
     
-    public void setUsername (String NOP){
+    public void setUsername (String Username){
         this.Username=Username;
     }
     public String getUsername(){
         return this.Username;
     }
-    public void setPassword (String NOP){
+    public void setPassword (String Password){
         this.Password=Password;
     }
     public String getPassword(){
         return this.Password;
+    }
+
+    public void setusername(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

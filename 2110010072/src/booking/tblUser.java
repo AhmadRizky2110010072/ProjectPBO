@@ -9,32 +9,32 @@ package booking;
  * @author user
  */
 public class tblUser {
-    private int ID_user;
+    private int idUser;
     private String Username;
     private String Password;
     private String Fullname; 
     
     public tblUser() {}
     
-    public void setID_user(String NOP){
-        this.ID_user=ID_user;
+    public void setidUser(int idUser){
+        this.idUser=idUser;
     }
-    public int getID_user(){
-        return this.ID_user;
+    public int getidUser(){
+        return this.idUser;
     }
-    public void setUsername (String NOP){
+    public void setUsername (String Username){
         this.Username=Username;
     }
     public String getUsername(){
         return this.Username;
     }
-    public void setPassword (String NOP){
+    public void setPassword (String Password){
         this.Password=Password;
     }
     public String getPassword(){
         return this.Password;
     }
-    public void setFullname (String NOP){
+    public void setFullname (String Fullname){
         this.Fullname=Fullname;
     }
     public String getFullname(){
